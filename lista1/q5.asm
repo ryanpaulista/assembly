@@ -8,8 +8,8 @@ main:
 	addi $9, $0, 10
 	
 	div $8, $9
-	mfhi $10
-	mflo $8
+	mfhi $10 # hi RESTO 
+	mflo $8 # lo QUOCIENTE
 	
 	div $8, $9
 	mfhi $11
